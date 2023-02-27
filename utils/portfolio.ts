@@ -29,7 +29,7 @@ export const seoData = {
   description:
     'Christophe Le Goff est un développeur full stack spécialisé dans la création de sites et applications web en javascript - typescript.',
   author: author.name,
-  image: `/image-seo.png`,
+  image: `/portfolio.png`,
   url: 'https://christophe-le-goff.fr/',
   keywords: [
     'Christophe',
@@ -313,7 +313,7 @@ export const experienceSection: ExperienceSectionType = {
         "Fondateur de l'agence dualdclic, spécialisée dans la création d'applications web et de visuels.",
         'Développeur full stack en collaboration avec une designer.',
         'éventail complet, full code ou CMS (WordPress).',
-        "Travail en équipe à distance, à l'écoute et désireuse de satifaire les clients.",
+        "Travail en équipe à distance, à l'écoute et désireuse de satisfaire les clients.",
       ],
     },
     {
