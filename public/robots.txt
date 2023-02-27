@@ -1,0 +1,14 @@
+# *
+User-agent: *
+Disallow: /404
+Disallow: /maintenance
+
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: undefined
+
+# Sitemaps
+Sitemap: undefined/sitemap.xml
