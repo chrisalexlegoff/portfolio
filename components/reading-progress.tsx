@@ -42,9 +42,10 @@ const ReadingProgress: React.FC<Props> = ({ target }) => {
     <>
       {readingProgress > 0 && (
         <>
+          {/* Même couleur dark et light pour le moment */}
           <div
             className={`fixed top-0 h-[5px] ${
-              isDark ? 'bg-slate-50' : 'bg-slate-900'
+              isDark ? 'bg-accent' : 'bg-accent'
             } z-50`}
             style={{ width: `${readingProgress}%` }}
           />

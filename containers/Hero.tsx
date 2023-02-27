@@ -27,7 +27,7 @@ const Hero = () => {
               cursor.textContent = '.';
               cursor.style.animation = 'none';
             }
-          }, 2000);
+          }, 1500);
         },
       });
       // Destropying

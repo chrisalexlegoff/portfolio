@@ -12,7 +12,7 @@ import { resumeFileName } from './config';
  */
 
 export const socialLinks = {
-  facebook: 'https://www.facebook.com/dualdclic/',
+  facebook: 'https://www.facebook.com/christophe.legoff.739',
   instagram: 'https://www.instagram.com/chrisalexlegoff/',
   twitter: 'https://twitter.com/chrisalexlegoff',
   github: 'https://github.com/chrisalexlegoff',
@@ -38,7 +38,7 @@ export const seoData = {
     'chrisalexlegoff',
     'Portfolio',
     'Christophe Portfolio ',
-    'Christophe Le Goff Singh Portfolio',
+    'Christophe Le Goff Portfolio',
   ],
 };
 
@@ -185,7 +185,7 @@ export const skillsSection = {
         dark: '/lotties/backend-dark.json',
       },
       points: [
-        "Mise en place d'API RESTful via Strapi (NodeJs) - Express)",
+        "Mise en place d'API RESTful via Strapi (NodeJs)",
         "Mise en place d'API via ExpressJS (NodeJs)",
         'Développement, test via postman et déploiement',
       ],
@@ -380,7 +380,7 @@ export const projectsSection: ProjectsSectionType = {
     {
       name: 'Portfolio',
       url: 'https://christophe-le-goff.fr/',
-      repo: 'https://github.com/chrisalexlegoff/portfolio_chris_front',
+      repo: 'https://github.com/chrisalexlegoff/portfolio',
       img: `/portfolio.png`,
       year: 2023,
       tags: ['Nextjs', 'Tailwind'],
@@ -395,7 +395,7 @@ export const contactSection = {
   subtitle: 'qui est le suivant',
   paragraphs: [
     "Je suis actuellement à la recherche d'un travail à distance, présentiel - hybride dans les Hauts de France ou de nouvelles opportunités.",
-    'Que vous ayez un projet à discuter ou que vous souhaitiez simplement dire bonjour, ma boîte de réception est ouverte à tous !',
+    "Que vous ayez un projet à mettre en place ou que vous souhaitiez simplement dire bonjour, n'hésitez pas !",
   ],
   link: `mailto:${author.email}`,
 };
@@ -430,8 +430,8 @@ export const socialSection = {
 // Footer Section
 
 export const footerSection = {
-  title: '© Christophe Le Goff',
+  title: 'Christophe Le Goff',
   titleCreator: 'Vatsal Singh',
-  link: 'https://github.com/chrisalexlegoff/portfolio_chris_front',
+  link: 'https://github.com/chrisalexlegoff/portfolio',
   creator: 'https://github.com/vatsalsinghkv/portfolio-website',
 };
