@@ -13,7 +13,7 @@
   <img src="https://img.shields.io/badge/Version-1.0.0-blue"/ >
 </p>
 
-[![portfolio](https://user-images.githubusercontent.com/72270681/221581797-e4d47722-d74e-45e5-9c2f-6faed96fa03c.png)](https://christophe-le-goff.com)
+[![portfolio](https://user-images.githubusercontent.com/72270681/221581797-e4d47722-d74e-45e5-9c2f-6faed96fa03c.png)](https://christophe-le-goff.fr)
 
 ## Sections
 
@@ -31,9 +31,9 @@
 - [Next.js](https://nextjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [TailwindCSS](https://tailwindcss.com/)
-- [Framer Motion](https://www.framer.com/motion/) - For animations
-- [Iconify](https://icon-sets.iconify.design/) - For icons
-- [Lottie Files](https://lottiefiles.com/) - For illustrations
+- [Framer Motion](https://www.framer.com/motion/) - Pour les animations
+- [Iconify](https://icon-sets.iconify.design/) - Pour les icons
+- [Lottie Files](https://lottiefiles.com/) - Pour les illustrations
 
 ## Contact
 

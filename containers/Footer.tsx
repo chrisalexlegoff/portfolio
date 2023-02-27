@@ -9,7 +9,7 @@ const Footer = () => {
       <SocialLinks className="flex md:hidden justify-center gap-3 mb-3" />
       <div className="flex justify-center">
         <p>{CurrentDateYear}</p>
-        <p>&nbsp;</p>
+        <p>&nbsp;&copy;&nbsp;</p>
         <Link
           href={footerSection.link}
           target="_blank"
