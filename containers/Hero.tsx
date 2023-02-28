@@ -44,13 +44,13 @@ const Hero = () => {
       <p className="text-sm sm:text-base text-accent font-mono">{subtitle}</p>
 
       <div className="text-4xl sm:text-7xl font-bold tracking-tighter max-w-5xl">
-        <h1 className="text-slate-900 dark:text-slate-200 capitalize mb-2 leading-[1.1]">
+        <h1 className="text-slate-900 dark:text-slate-200  mb-2 leading-[1.1]">
           {title}
         </h1>
-        <h1 className="leading-[1.2]">
+        <h2 className="leading-[1.2]">
           {tagline}
           <span ref={el}></span>
-        </h1>
+        </h2>
       </div>
 
       <p className="max-w-xl text-base sm:text-lg">{description}</p>

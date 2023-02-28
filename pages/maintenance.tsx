@@ -7,14 +7,14 @@ const Maintenance = () => {
     <>
       <div className="h-screen grid place-items-center">
         <div className="text-center w-full">
-          <h1 className="font-signature text-accent capitalize text-2xl sm:text-4xl relative group top-1 -mb-10">
+          <h1 className="font-signature text-accent  text-2xl sm:text-4xl relative group top-1 -mb-10">
             {author.name}
           </h1>
           <ShowLottie
             path={`https://assets5.lottiefiles.com/packages/lf20_gsyixzef.json`}
             className="mx-auto"
           />
-          <p className="text-3xl md:text-4xl capitalize text-dark-2 -mt-16">
+          <p className="text-3xl md:text-4xl  text-dark-2 -mt-16">
             Mon portfolio se refait une beauté
           </p>
 

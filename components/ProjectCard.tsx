@@ -31,7 +31,7 @@ const ProjectCard = ({ name, url, repo, year, img, tags }: ProjectType) => {
       </Link>
       <div className="p-4 py-3 space-y-1">
         <div className="flex justify-between items-center">
-          <p className="text-xs capitalize font-mono">{tags.join(' | ')}</p>
+          <p className="text-xs  font-mono">{tags.join(' | ')}</p>
           <div className="flex items-center space-x-1.5">
             <Link
               href={repo}
@@ -49,10 +49,10 @@ const ProjectCard = ({ name, url, repo, year, img, tags }: ProjectType) => {
             </Link>
           </div>
         </div>
-        <h4 className="flex justify-between group-hover:text-accent capitalize font-medium duration-200">
+        <h3 className="flex justify-between group-hover:text-accent font-medium duration-200">
           <span>{name}</span>
           <span className="mr-1">{year}</span>
-        </h4>
+        </h3>
       </div>
     </div>
   ) : (
