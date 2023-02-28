@@ -10,9 +10,7 @@ const Contact = () => {
       id="contact"
       className="max-w-xl mx-auto text-center  !py-16 md:!py-24 mb-20 md:mb-32"
     >
-      <p className="text-accent text-sm capitalize mb-3 font-mono">
-        {subtitle}
-      </p>
+      <p className="text-accent text-sm  mb-3 font-mono">{subtitle}</p>
       <h2 className="heading-secondary !mb-5">{title}</h2>
 
       {paragraphs.map((paragraph) => (

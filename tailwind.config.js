@@ -24,7 +24,7 @@ module.exports = {
     }),
     extend: {
       fontFamily: {
-        signature: ['heyaugust', 'sans-serif'],
+        // signature: ['heyaugust', 'sans-serif'],
         sans: ['Inter', 'sans-serif'],
         mono: ['Roboto Mono', 'monospace'],
       },

@@ -68,12 +68,12 @@ const Navbar = () => {
       id="navbar"
       className="px-8 md:px-6 xl:px-12 py-4 fixed inset-x-0 top-0 right-0 flex justify-between items-end z-50 duration-500 backdrop-blur-lg"
     >
-      <h1 className="font-signature text-accent capitalize text-2xl relative group top-1">
+      <div className="text-accent  text-2xl relative group top-1">
         <a href="/#hero" className="block">
           {author.name}
           <div className="absolute bottom-1.5 left-0 h-[1px] w-0 group-hover:w-full bg-accent duration-300"></div>
         </a>
-      </h1>
+      </div>
 
       <NavButton
         onClick={() => {
@@ -84,7 +84,7 @@ const Navbar = () => {
       />
 
       <nav
-        className={`capitalize absolute text-sm duration-200 md:bg-transparent z-50 w-[90%] left-1/2 -translate-x-1/2 top-full h-max rounded-xl shadow-xl p-6 bg-bg-secondary md:blocks md:static md:w-auto md:left-auto md:transform-none md:top-auto md:rounded-none md:shadow-none md:p-0 md:h-auto md:visible md:opacity-100 ${
+        className={` absolute text-sm duration-200 md:bg-transparent z-50 w-[90%] left-1/2 -translate-x-1/2 top-full h-max rounded-xl shadow-xl p-6 bg-bg-secondary md:blocks md:static md:w-auto md:left-auto md:transform-none md:top-auto md:rounded-none md:shadow-none md:p-0 md:h-auto md:visible md:opacity-100 ${
           navbarCollapsed ? 'opacity-100 visible' : 'opacity-0 invisible'
         }`}
       >

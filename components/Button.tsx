@@ -41,7 +41,7 @@ const Button = (props: Props) => {
       : 'text-sm p-4 px-6 border-2'
   } block ${
     center ? 'mx-auto' : ''
-  } w-fit font-mono capitalize rounded border-accent text-accent hover:bg-accent-light focus:outline-none focus:bg-accent-light duration-150 cursor-pointer ${className}`;
+  } w-fit font-mono  rounded border-accent text-accent hover:bg-accent-light focus:outline-none focus:bg-accent-light duration-150 cursor-pointer ${className}`;
 
   if (props.type === 'link') {
     return (

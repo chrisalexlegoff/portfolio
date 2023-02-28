@@ -18,7 +18,7 @@ const About = () => {
       <main className="flex gap-16 items-center lg:items-start flex-col lg:flex-row">
         <div className="space-y-4 lg:w-3/5">
           <p>
-            Salut, je m'appelle Christophe Le Goff, un développeur full stack
+            Je m'appelle Christophe Le Goff, un développeur freelance full stack
             javascript, passionné, ouvert à tous les défis.
           </p>
           <p>
@@ -44,7 +44,7 @@ const About = () => {
           </p>
           <p>
             Mon objectif actuel est d'augmenter mon champ d'action en apprenant
-            le développement mobile - React Native et de trouver un travail à
+            le développement mobile - React Native et de trouver un poste à
             distance ou présentiel - hybride dans les Hauts de France.
           </p>
 

@@ -7,9 +7,7 @@ const Custom404 = () => {
       <div className="text-center w-full max-w-xl">
         <ShowLottie path="/lotties/404.json" className="mx-auto" />
 
-        <p className="text-3xl md:text-4xl capitalize text-dark-2 mt-5">
-          page not found
-        </p>
+        <p className="text-3xl md:text-4xl  text-dark-2 mt-5">page not found</p>
 
         <Button type="link" href="/" size="lg" className="mt-20" sameTab center>
           go home

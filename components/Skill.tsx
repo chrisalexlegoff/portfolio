@@ -18,9 +18,7 @@ const Skill = ({ lottie, title, skills, points, className = '' }: Props) => {
     >
       {/* Left */}
       <div className="space-y-14 lg:w-1/2">
-        <h3 className="capitalize text-2xl sm:text-3xl text-center mb-5">
-          {title}
-        </h3>
+        <h3 className=" text-2xl sm:text-3xl text-center mb-5">{title}</h3>
 
         <div key={getId()} className="flex gap-2 justify-center flex-wrap">
           {skills.map(({ name, icon, officialLink }) => (

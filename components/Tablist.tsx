@@ -48,7 +48,7 @@ const Tablist = ({ experiences }: Props) => {
         {experiences.map(({ company }, i) => (
           <button
             key={getId()}
-            className={`h-10 min-w-[120px] sm:w-auto sm:px-5 sm:!text-left capitalize hover:bg-accent-light hover:text-accent focus:outline-none focus:bg-accent-light focus:text-accent ${
+            className={`h-10 min-w-[120px] sm:w-auto sm:px-5 sm:!text-left  hover:bg-accent-light hover:text-accent focus:outline-none focus:bg-accent-light focus:text-accent ${
               i === activeExperience ? 'text-accent' : ''
             }`}
             onClick={() => setActiveExperience(i)}
@@ -66,13 +66,13 @@ const Tablist = ({ experiences }: Props) => {
 
       <div key={getId()} className="space-y-5 p-1">
         <div className="space-y-1">
-          <h3 className="text-lg font-medium text-dark-2 capitalize">
+          <h3 className="text-lg font-medium text-dark-2 ">
             {role}{' '}
             <Link href={companyUrl} target="_blank" className="text-accent">
               @{company}
             </Link>
           </h3>
-          <p className="text-xs font-mono capitalize">
+          <p className="text-xs font-mono ">
             <>
               {started} - {upto}
             </>

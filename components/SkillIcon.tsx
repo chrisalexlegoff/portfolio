@@ -17,7 +17,7 @@ const SkillIcon = ({ src, name, officialLink }: Props) => {
       >
         <Icon icon={src} width="32" height="32" />
       </Link>
-      <div className="opacity-0 invisible w-max group-hover:opacity-100 group-hover:visible absolute -top-8 rounded capitalize bg-slate-900/75 dark:bg-slate-700/90 text-white dark:text-slate-100 py-1 px-2 text-sm duration-200">
+      <div className="opacity-0 invisible w-max group-hover:opacity-100 group-hover:visible absolute -top-8 rounded  bg-slate-900/75 dark:bg-slate-700/90 text-white dark:text-slate-100 py-1 px-2 text-sm duration-200">
         {name}
         <svg
           className="absolute text-slate-900/75 dark:text-slate-700/90 h-2 w-full left-0 top-full"

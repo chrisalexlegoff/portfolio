@@ -27,7 +27,7 @@ export const author = {
 export const seoData = {
   title: 'Christophe Le Goff | Full-Stack Développeur',
   description:
-    'Christophe Le Goff est un développeur full stack spécialisé dans la création de sites et applications web en javascript - typescript.',
+    'Christophe Le Goff est un développeur freelance full stack spécialisé dans la création de sites et applications web en javascript - typescript.',
   author: author.name,
   image: `${process.env.NEXT_PUBLIC_URL}/portfolio.png`,
   url: 'https://christophe-le-goff.fr/',
@@ -52,14 +52,14 @@ export const seoData = {
 
 export const navbarSection = {
   navLinks: [
-    { name: 'à propos', url: '/#about' },
-    { name: 'compétences', url: '/#skills' },
-    { name: 'expérience', url: '/#experience' },
-    { name: 'projets', url: '/#projects' },
-    { name: 'contact', url: '/#contact' },
+    { name: 'A propos', url: '/#about' },
+    { name: 'Compétences', url: '/#skills' },
+    { name: 'Expérience', url: '/#experience' },
+    { name: 'Projets', url: '/#projects' },
+    { name: 'Contact', url: '/#contact' },
   ],
   cta: {
-    title: 'mon CV',
+    title: 'Mon CV',
     url: `/${resumeFileName}`,
   },
 };
@@ -69,14 +69,14 @@ export const navbarSection = {
 export const heroSection: HeroSectionType = {
   subtitle: 'Bonjour, mon nom est',
   title: 'Christophe Le Goff.',
-  tagline: 'Je crée des applications web en full ',
+  tagline: 'Je crée des applications - sites web en full ',
   description:
-    "Je suis un développeur web Full Stack passionné ayant une expérience des applications web avec React.js, Next.js, Strapi, ExpressJS et l'administration de bases de données.",
+    "Je suis un développeur freelance web Full Stack passionné ayant une expérience des applications web avec React.js, Next.js, Strapi, ExpressJS et l'administration de bases de données.",
   specialText:
-    'Actuellement disponible pour un travail à distance ou présentiel - hybride Hauts de France',
+    'Actuellement disponible pour un poste à distance ou présentiel - hybride Hauts de France',
   // either button or simple text (information)
   cta: {
-    title: 'voir mon CV',
+    title: 'Voir mon CV',
     link: `/${resumeFileName}`,
     hideInDesktop: true,
   },
@@ -85,12 +85,12 @@ export const heroSection: HeroSectionType = {
 // About Section
 
 export const aboutSection = {
-  title: 'à propos de moi',
+  title: 'A propos de moi',
   // Paragraphs need to be changed from containers/About.tsx
   // Because it wasn't possible to insert anchor tags like this
   list: {
     title:
-      "Voici quelques technologies avec lesquelles j'ai travaillé récemment:",
+      'Voici quelques technologies avec lesquelles je travaille en ce moment:',
     items: [
       'NextJs',
       'TailwindCSS',
@@ -106,18 +106,18 @@ export const aboutSection = {
 // Skills Section
 
 export const skillsSection = {
-  title: 'ce que je fais',
+  title: 'Mon expertise',
   skills: [
     {
-      title: 'développement front-end',
+      title: 'Développement front-end',
       // animation lottie file: https://lottiefiles.com/
       lottie: {
         light: '/lotties/frontend.json',
         dark: '/lotties/frontend-dark.json',
       },
       points: [
-        'Construire des applications web avec NextJS (ReactJS)',
-        'Construire des sites web responsives avec TailwindCSS',
+        'Construire des applications web avec le framework NextJS (ReactJS)',
+        'Construire des sites web responsives avec le framework TailwindCSS',
         'Mise en place du SSR - SSG en optimisant le SEO',
       ],
       softwareSkills: [
@@ -179,15 +179,15 @@ export const skillsSection = {
       ],
     },
     {
-      title: 'développement back-end',
+      title: 'Développement back-end',
       lottie: {
         light: '/lotties/backend.json',
         dark: '/lotties/backend-dark.json',
       },
       points: [
-        "Mise en place d'API RESTful via Strapi (NodeJs)",
-        "Mise en place d'API via ExpressJS (NodeJs)",
-        'Développement, test via postman et déploiement',
+        "Mise en place d'API RESTful via le 'Headless CMS' Strapi (NodeJs)",
+        "Mise en place d'API via le framework ExpressJS (NodeJs)",
+        "Développement, test via l'application postman et déploiement",
       ],
       softwareSkills: [
         {
@@ -306,7 +306,7 @@ export const experienceSection: ExperienceSectionType = {
     {
       company: 'DualDclic',
       companyUrl: 'https://dualdclic.fr/',
-      role: 'développeur | fondateur',
+      role: 'Développeur | fondateur',
       started: 'juin 2021',
       upto: "Aujourd'hui",
       tasks: [
@@ -341,7 +341,7 @@ export const experienceSection: ExperienceSectionType = {
       ],
     },
     {
-      company: 'MinDef',
+      company: 'Min. Armées',
       companyUrl: 'https://www.defense.gouv.fr/',
       role: 'Chef de centre | formateur',
       started: 'Janvier 2000',
@@ -359,7 +359,7 @@ export const experienceSection: ExperienceSectionType = {
 // Projects Section
 
 export const projectsSection: ProjectsSectionType = {
-  title: 'mes projets',
+  title: 'Mes projets',
   projects: [
     {
       name: 'DualDclic',
@@ -391,10 +391,10 @@ export const projectsSection: ProjectsSectionType = {
 // Contact Section
 
 export const contactSection = {
-  title: 'entrez en contact',
-  subtitle: 'qui est le suivant',
+  title: 'Entrez en contact',
+  subtitle: 'Qui est le suivant',
   paragraphs: [
-    "Je suis actuellement à la recherche d'un travail à distance, présentiel - hybride dans les Hauts de France ou de nouvelles opportunités.",
+    "Je suis actuellement à la recherche d'un poste à distance, présentiel - hybride dans les Hauts de France ou de nouvelles opportunités.",
     "Que vous ayez un projet à mettre en place ou que vous souhaitiez simplement dire bonjour, n'hésitez pas !",
   ],
   link: `mailto:${author.email}`,
