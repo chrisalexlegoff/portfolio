@@ -29,7 +29,7 @@ export const seoData = {
   description:
     'Christophe Le Goff est un développeur full stack spécialisé dans la création de sites et applications web en javascript - typescript.',
   author: author.name,
-  image: `/portfolio.png`,
+  image: `${process.env.NEXT_PUBLIC_URL}/portfolio.png`,
   url: 'https://christophe-le-goff.fr/',
   keywords: [
     'Christophe',
