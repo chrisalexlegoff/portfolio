@@ -1,5 +1,6 @@
 import React from 'react';
 import { ReadingProgress } from '../components';
+import Consent from '../components/consent';
 import Email from './Email';
 import Footer from './Footer';
 import Navbar from './Navbar';
@@ -24,6 +25,7 @@ const Layout = ({ children, className = '' }: Props) => {
       <Footer />
       <Social />
       <Email />
+      <Consent />
     </div>
   );
 };

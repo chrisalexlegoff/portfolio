@@ -27,7 +27,7 @@ export const author = {
 export const seoData = {
   title: 'Christophe Le Goff | Full-Stack Développeur',
   description:
-    'Christophe Le Goff est un développeur freelance full stack spécialisé dans la création de sites et applications web en javascript - typescript.',
+    'Christophe Le Goff est un développeur freelance full stack spécialisé dans la conception de sites web et applications en javascript - typescript.',
   author: author.name,
   image: `${process.env.NEXT_PUBLIC_URL}/portfolio.png`,
   url: 'https://christophe-le-goff.fr/',
@@ -69,9 +69,9 @@ export const navbarSection = {
 export const heroSection: HeroSectionType = {
   subtitle: 'Bonjour, mon nom est',
   title: 'Christophe Le Goff.',
-  tagline: 'Je crée des applications - sites web en full ',
+  tagline: 'Conception de sites web et applications en full ',
   description:
-    "Je suis un développeur freelance web Full Stack passionné ayant une expérience des applications web avec React.js, Next.js, Strapi, ExpressJS et l'administration de bases de données.",
+    "Je suis un développeur freelance web Full Stack passionné ayant une expérience dans la création de sites web et applications avec les framework React.js, Next.js, ExpressJS, le CMS HeadLess Strapi et l'administration de bases de données.",
   specialText:
     'Actuellement disponible pour un poste à distance ou présentiel - hybride Hauts de France',
   // either button or simple text (information)
@@ -90,7 +90,7 @@ export const aboutSection = {
   // Because it wasn't possible to insert anchor tags like this
   list: {
     title:
-      'Voici quelques technologies avec lesquelles je travaille en ce moment:',
+      'Voici quelques framework et outils avec lesquels je travaille en ce moment:',
     items: [
       'NextJs',
       'TailwindCSS',
@@ -109,7 +109,7 @@ export const skillsSection = {
   title: 'Mon expertise',
   skills: [
     {
-      title: 'Développement front-end',
+      title: 'Développement frontend',
       // animation lottie file: https://lottiefiles.com/
       lottie: {
         light: '/lotties/frontend.json',
@@ -179,7 +179,7 @@ export const skillsSection = {
       ],
     },
     {
-      title: 'Développement back-end',
+      title: 'Développement backend',
       lottie: {
         light: '/lotties/backend.json',
         dark: '/lotties/backend-dark.json',
@@ -252,7 +252,7 @@ export const skillsSection = {
       ],
     },
     {
-      title: 'Administration serveurs',
+      title: 'Administration réseaux',
       lottie: {
         light: '/lotties/vps-servers.json',
         dark: '/lotties/vps-servers-dark.json',
