@@ -66,7 +66,7 @@ const Tablist = ({ experiences }: Props) => {
 
       <div key={getId()} className="space-y-5 p-1">
         <div className="space-y-1">
-          <h3 className="text-lg font-medium text-dark-2 ">
+          <h3 className="text-lg font-medium text-dark-2">
             {role}{' '}
             <Link href={companyUrl} target="_blank" className="text-accent">
               @{company}
